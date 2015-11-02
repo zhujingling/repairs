@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值需要设置为和dao层的类相对应 -->
+<mapper namespace="com.ttrh.repairs.dao.UGroupDao">
+	<resultMap type="com.ttrh.repairs.entity.UGroup" id="ugroupResultMap">
+		<!-- private String groupId; private String groupName; private String groupDescribe; -->
+		<result property="groupId" column="groupId" />
+		<result property="groupName" column="groupName" />
+		<result property="groupDescribe" column="groupDescribe" />
+
+		<!-- 一对多的关系 -->
+		<!-- property: 指的是集合属性的值, ofType：指的是集合中元素的类型 -->
+		<collection property="users" ofType="com.ttrh.repairs.entity.User">
+			<result property="UId" column="UId" />
+			<result property="UName" column="UName" />
+			<result property="UPwd" column="UPwd" />
+			<result property="UEmail" column="UEmail" />
+			<result property="USex" column="USex" />
+			<result property="UPwd" column="UPwd" />
+			<result property="UPhone" column="UPhone" />
+			<result property="UGroup" column="UGroup" />
+			<result property="UDepartment" column="UDepartment" />
+		</collection>
+	</resultMap>
+
+	<select id="getAllUGroup" resultType="com.ttrh.repairs.entity.UGroup">
+		select
+		* from UGroup
+	</select>
+
+</mapper>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值需要设置为和dao层的类相对应 -->
+<mapper namespace="com.ttrh.repairs.dao.DepartmentDao">
+	<resultMap type="com.ttrh.repairs.entity.Department" id="departmentResultMap">
+	<!-- private String departmentId;
+	private String departmentName; -->
+		<result property="departmentId" column="departmentId" />
+		<result property="departmentName" column="departmentName" />
+		
+		<collection property="users" ofType="com.ttrh.repairs.entity.User">
+			<result property="UId" column="UId" />
+			<result property="UName" column="UName" />
+			<result property="UPwd" column="UPwd" />
+			<result property="UEmail" column="UEmail" />
+			<result property="USex" column="USex" />
+			<result property="UPwd" column="UPwd" />
+			<result property="UPhone" column="UPhone" />
+			<result property="UGroup" column="UGroup" />
+			<result property="UDepartment" column="UDepartment" />
+		</collection>
+	</resultMap>
+
+	<select id="getAllDepartment" resultType="com.ttrh.repairs.entity.Department">
+		select
+		* from Department 
+	</select>
+
+</mapper>

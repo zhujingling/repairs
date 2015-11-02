@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值需要设置为和dao层的类相对应 -->
+<mapper namespace="com.ttrh.repairs.dao.RepairsDao">
+	<resultMap type="com.ttrh.repairs.entity.Repairs" id="repairsResultMap">
+		<!--private String reparisId; private String reparisNumber;//报修单号 private 
+			String reparisTime;//报修时间 private String reparisUser;//报修人 private boolean 
+			reparisIs;//是否已修好 -->
+		<id property="reparisId" column="reparisId" />
+		<result property="reparisNumber" column="reparisNumber" />
+		<result property="reparisTime" column="reparisTime" />
+		<result property="reparisUser" column="reparisUser" />
+		<result property="reparisIs" column="reparisIs" />
+
+		<!-- 多对一的关系 -->
+		<!-- property: 指的是属性的值, javaType：指的是属性的类型 -->
+		<association property="user" javaType="com.ttrh.repairs.entity.User">
+			<id property="UId" column="UId" />
+			<result property="UName" column="UName" />
+			<result property="UPwd" column="UPwd" />
+			<result property="UEmail" column="UEmail" />
+			<result property="USex" column="USex" />
+			<result property="UPwd" column="UPwd" />
+			<result property="UPhone" column="UPhone" />
+			<result property="UCreateTime" column="UCreateTime" />
+			<result property="UGroup" column="UGroup" />
+			<result property="UDepartment" column="UDepartment" />
+		</association>
+	</resultMap>
+
+	<select id="getAllReparis" resultType="com.ttrh.repairs.entity.Repairs">
+		select
+		* from Repairs
+	</select>
+
+	<!--查出个人的报修单 -->
+	<select id="selectRepairsByUid" parameterType="string"
+		resultType="com.ttrh.repairs.entity.Repairs">
+		select r.* from repairs r where r.reparisUser=#{Uid}
+	</select>
+
+	<select id="selectRepairs" parameterType="string" 
+		resultMap="repairsResultMap">
+		select u.*,r.* from user u, repairs r where u.UId=r.reparisUser and r.reparisUser=#{Uid}
+	</select>
+
+</mapper>

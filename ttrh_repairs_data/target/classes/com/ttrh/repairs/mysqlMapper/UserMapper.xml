@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值需要设置为和dao层的类相对应 -->
+<mapper namespace="com.ttrh.repairs.dao.UserDao">
+	<resultMap type="com.ttrh.repairs.entity.User" id="userResultMap">
+		<!-- private String UId; private String UName; private String UPwd; private 
+			String UEmail; private String USex; private String UPhone; private String 
+			UGroup; private String UDepartment; -->
+		<result property="UId" column="UId" />
+		<result property="UName" column="UName" />
+		<result property="UPwd" column="UPwd" />
+		<result property="UEmail" column="UEmail" />
+		<result property="USex" column="USex" />
+		<result property="UPwd" column="UPwd" />
+		<result property="UPhone" column="UPhone" />
+		<result property="UCreateTime" column="UCreateTime" />
+		<result property="UGroup" column="UGroup" />
+		<result property="UDepartment" column="UDepartment" />
+
+		<!-- 多对一的关系 -->
+		<!-- property: 指的是属性的值, javaType：指的是属性的类型 -->
+		<association property="UGroup" column="ugroup"
+			javaType="com.ttrh.repairs.entity.UGroup">
+			<result property="groupId" column="groupId" />
+			<result property="groupName" column="groupName" />
+			<result property="groupDescribe" column="groupDescribe" />
+		</association>
+
+		<association property="UDepartment" column="udepartment"
+			javaType="com.ttrh.repairs.entity.Department">
+			<result property="departmentId" column="departmentId" />
+			<result property="departmentName" column="departmentName" />
+		</association>
+
+		<!-- 一对多的关系 -->
+		<collection property="repairs" ofType="com.ttrh.repairs.entity.Repairs">
+			<result property="reparisId" column="reparisId" />
+			<result property="reparisNumber" column="reparisNumber" />
+			<result property="reparisTime" column="reparisTime" />
+			<result property="reparisUser" column="reparisUser" />
+			<result property="reparisIs" column="reparisIs" />
+
+		</collection>
+
+
+
+	</resultMap>
+
+	<select id="getAllUser" resultType="com.ttrh.repairs.entity.User">
+		select
+		* from User
+	</select>
+
+
+	<select id="getRepairsByUser" resultMap="userResultMap">
+		select u.*,r.* from user u, repairs r where u.UId=r.reparisUser
+	</select>
+
+
+
+</mapper>
