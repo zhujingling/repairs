@@ -11,7 +11,6 @@
 		<result property="UPwd" column="UPwd" />
 		<result property="UEmail" column="UEmail" />
 		<result property="USex" column="USex" />
-		<result property="UPwd" column="UPwd" />
 		<result property="UPhone" column="UPhone" />
 		<result property="UCreateTime" column="UCreateTime" />
 		<result property="UGroup" column="UGroup" />
@@ -39,23 +38,52 @@
 			<result property="reparisTime" column="reparisTime" />
 			<result property="reparisUser" column="reparisUser" />
 			<result property="reparisIs" column="reparisIs" />
+			<result property="reparisContent" column="reparisContent" />
 
 		</collection>
-
-
-
 	</resultMap>
+	<insert id="insertUser" parameterType="com.ttrh.repairs.entity.User">
+		insert into
+		user(UId,UName,UPwd,UEmail,USex,UPhone,UCreateTime,UGroup,UDepartment)
+		values(#{UId},#{UName},#{UPwd},#{UEmail},#{USex},#{UPhone},#{UCreateTime},#{UGroup},#{UDepartment})
+	</insert>
 
-	<select id="getAllUser" resultType="com.ttrh.repairs.entity.User">
-		select
-		* from User
+	<update id="updateUser" parameterType="com.ttrh.repairs.entity.User">
+		update user
+		<set>
+			<if test="UName != null">UName = #{UName}</if>
+			,
+			<if test="UPwd != null">UPwd = #{UPwd}</if>
+			,
+			<if test="UEmail != null">UEmail = #{UEmail}</if>
+			,
+			<if test="USex != null">USex = #{USex}</if>
+			,
+			<if test="UPhone != null">UPhone = #{UPhone}</if>
+			,
+			<if test="UCreateTime != null">UCreateTime = #{UCreateTime}</if>
+			,
+			<if test="UGroup != null">UGroup = #{UGroup}</if>
+			,
+			<if test="UDepartment != null">UDepartment = #{UDepartment}</if>
+		</set>
+		where UId = #{UId}
+	</update>
+
+	<select id="checkUName" parameterType="string"
+		resultType="com.ttrh.repairs.entity.User">
+		select * from User where UName=#{uName}
 	</select>
 
-
-	<select id="getRepairsByUser" resultMap="userResultMap">
-		select u.*,r.* from user u, repairs r where u.UId=r.reparisUser
+	<select id="checkUPwd" parameterType="string"
+		resultType="com.ttrh.repairs.entity.User">
+		select * from User where UName=#{uName} and UPwd=#{uPwd}
 	</select>
 
-
+	<select id="getUserInfo" parameterType="string"
+		resultType="com.ttrh.repairs.entity.User">
+		select * from User where UName=#{uName} and
+		UPwd=#{uPwd}
+	</select>
 
 </mapper>

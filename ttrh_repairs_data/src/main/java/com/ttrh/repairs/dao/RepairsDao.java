@@ -8,6 +8,16 @@ import com.ttrh.repairs.entity.Repairs;
 
 @Repository
 public interface RepairsDao {
+	/*
+	 * 增加报修单
+	 */
+	int insertReparis(Repairs repairs);
+	/*
+	 * 修改报修单
+	 */
+	int updateReparis(Repairs repairs);
+	/*
+	 * 根据用户查询保修单
+	 */
 	List<Repairs> selectRepairsByUid(String uid);
-	List<Repairs> selectRepairs(String uid);
 }

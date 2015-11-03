@@ -6,11 +6,12 @@
 		<!--private String reparisId; private String reparisNumber;//报修单号 private 
 			String reparisTime;//报修时间 private String reparisUser;//报修人 private boolean 
 			reparisIs;//是否已修好 -->
-		<id property="reparisId" column="reparisId" />
+		<result property="reparisId" column="reparisId" />
 		<result property="reparisNumber" column="reparisNumber" />
 		<result property="reparisTime" column="reparisTime" />
 		<result property="reparisUser" column="reparisUser" />
 		<result property="reparisIs" column="reparisIs" />
+		<result property="reparisContent" column="reparisContent" />
 
 		<!-- 多对一的关系 -->
 		<!-- property: 指的是属性的值, javaType：指的是属性的类型 -->
@@ -28,6 +29,20 @@
 		</association>
 	</resultMap>
 
+	<insert id="insertReparis" parameterType="com.ttrh.repairs.entity.Repairs">
+		insert into Repairs
+		(reparisId,reparisNumber,reparisTime,reparisUser,reparisIs)
+		values(#{reparisId},#{reparisNumber},#{reparisTime},#{reparisUser},#{reparisIs})
+	</insert>
+	
+	<update id="updateReparis" parameterType="com.ttrh.repairs.entity.Repairs">
+		update Reparis
+		<set>
+		 <if test="reparisContent!=null">reparisContent = #{reparisContent}</if>
+		</set>
+		where reparisId = #{reparisId}
+	</update>
+	
 	<select id="getAllReparis" resultType="com.ttrh.repairs.entity.Repairs">
 		select
 		* from Repairs
@@ -36,12 +51,9 @@
 	<!--查出个人的报修单 -->
 	<select id="selectRepairsByUid" parameterType="string"
 		resultType="com.ttrh.repairs.entity.Repairs">
-		select r.* from repairs r where r.reparisUser=#{Uid}
+		select u.*,r.* from user u, repairs r where u.UId=r.reparisUser and
+		r.reparisUser=#{Uid}
 	</select>
 
-	<select id="selectRepairs" parameterType="string" 
-		resultMap="repairsResultMap">
-		select u.*,r.* from user u, repairs r where u.UId=r.reparisUser and r.reparisUser=#{Uid}
-	</select>
 
 </mapper>

@@ -14,6 +14,18 @@ public class RepairsServiceImpl implements IRepairsService {
 
 	@Autowired
 	public RepairsDao repairsDao;
+	
+	@Override
+	public int insertReparis(Repairs repairs) {
+		// TODO Auto-generated method stub
+		return repairsDao.insertReparis(repairs);
+	}
+	
+	@Override
+	public int updateReparis(Repairs repairs) {
+		// TODO Auto-generated method stub
+		return repairsDao.updateReparis(repairs);
+	}
 	public String selectRepairsByUid(String uid) {
 		// TODO Auto-generated method stub
 		String ret = null;
@@ -23,15 +35,7 @@ public class RepairsServiceImpl implements IRepairsService {
 		}
 		return ret;
 	}
-	@Override
-	public String selectRepairs(String uid) {
-		// TODO Auto-generated method stub
-		String ret = null;
-		List<Repairs> list=repairsDao.selectRepairs(uid);
-		for (Repairs repairs : list) {
-			ret=repairs.getUser().getUCreateTime().toString();
-		}
-		return ret;
-	}
+
+	
 
 }

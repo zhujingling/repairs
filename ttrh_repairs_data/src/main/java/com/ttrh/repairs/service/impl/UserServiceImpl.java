@@ -14,28 +14,36 @@ public class UserServiceImpl implements IUserService {
 
 	@Autowired
 	public UserDao userDao;
+	
 	@Override
-	public String getAllUser() {
+	public int insertUser(User user) {
 		// TODO Auto-generated method stub
-		String ret=null;
-		List<User> list=userDao.getAllUser();
-		for (User user : list) {
-			ret=user.getUName();
-		}
-		return ret;
+		return userDao.insertUser(user);
 	}
+
 	@Override
-	public String getRepairsByUser() {
+	public int updateUser(User user) {
 		// TODO Auto-generated method stub
-		String ret=null;
-		List<User> list=userDao.getRepairsByUser();
-		for (User user : list) {
-			List<Repairs> listRepairs=user.getRepairs();
-			for (Repairs repairs : listRepairs) {
-				ret=user.getUCreateTime()+","+repairs.getReparisNumber();
-			}
-		}
-		return ret;
+		return userDao.updateUser(user);
 	}
+
+	@Override
+	public boolean checkUName(String uName) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean checkUName(String uName, String uPwd) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public String getUserInfo(String uName, String uPwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+		
 
 }

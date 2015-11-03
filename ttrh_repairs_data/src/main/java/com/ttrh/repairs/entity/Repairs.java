@@ -8,6 +8,7 @@ public class Repairs {
 	private Date reparisTime;// 报修时间
 	private String reparisUser;// 报修人
 	private boolean reparisIs;// 是否已修好
+	private String reparisContent;// 报修内容
 
 	private User user;
 
@@ -49,6 +50,14 @@ public class Repairs {
 
 	public void setReparisIs(boolean reparisIs) {
 		this.reparisIs = reparisIs;
+	}
+
+	public String getReparisContent() {
+		return reparisContent;
+	}
+
+	public void setReparisContent(String reparisContent) {
+		this.reparisContent = reparisContent;
 	}
 
 	public User getUser() {

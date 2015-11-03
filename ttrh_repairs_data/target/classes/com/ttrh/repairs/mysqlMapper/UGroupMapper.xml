@@ -23,6 +23,22 @@
 		</collection>
 	</resultMap>
 
+	<insert id="insertUGroup" parameterType="com.ttrh.repairs.entity.UGroup">
+		insert into ugroup
+		(groupId,groupName,groupDescribe)
+		values(#{groupId},#{groupName},#{groupDescribe})
+	</insert>
+
+	<update id="updateUGroup" parameterType="com.ttrh.repairs.entity.UGroup">
+		update ugroup
+		<set>
+			<if test="groupName!=null">groupName = #{groupName}</if>
+			,
+			<if test="groupDescribe!=null">groupDescribe = #{groupDescribe}</if>
+		</set>
+		where groupId=#{groupId}
+	</update>
+
 	<select id="getAllUGroup" resultType="com.ttrh.repairs.entity.UGroup">
 		select
 		* from UGroup
