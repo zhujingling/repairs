@@ -17,7 +17,7 @@ public interface IUserService {
 	 * 检验密码
 	 */
 
-	boolean checkUName(String uName, String uPwd);
+	boolean checkUPwd(String uName, String uPwd);
 
 	/*
 	 * 得到用户信息

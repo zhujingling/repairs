@@ -21,7 +21,7 @@ public interface UserDao {
 	 * 检验密码
 	 */
 	
-	User checkUName(String uName,String uPwd);
+	User checkUPwd(String uName,String uPwd);
 	
 	/*
 	 * 得到用户信息
