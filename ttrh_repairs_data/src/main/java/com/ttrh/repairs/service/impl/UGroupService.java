@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.ttrh.repairs.dao.UGroupDao;
 import com.ttrh.repairs.entity.UGroup;
 import com.ttrh.repairs.service.IUGroupService;
+import com.ttrh.repairs.utils.IdUtil;
 
 @Service("ugroupServiceImpl")
 public class UGroupService implements IUGroupService {
@@ -17,6 +18,7 @@ public class UGroupService implements IUGroupService {
 	@Override
 	public int insertUGroup(UGroup uGroup) {
 		// TODO Auto-generated method stub
+		uGroup.setGroupId(IdUtil.Uuid());
 		return ugroupDao.insertUGroup(uGroup);
 	}
 

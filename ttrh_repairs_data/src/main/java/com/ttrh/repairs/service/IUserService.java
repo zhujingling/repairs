@@ -23,5 +23,9 @@ public interface IUserService {
 	 * 得到用户信息
 	 */
 	String getUserInfo(String uName, String uPwd);
+	/*
+	 * 用户登录
+	 */
+	String userLogin(String uName, String uPwd);
 
 }

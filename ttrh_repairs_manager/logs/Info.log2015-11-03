@@ -1,0 +1,44 @@
+[I][16:14:12]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:14:12 CST 2015]; root of context hierarchy
+[I][16:14:12]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:14:12]Loading properties file from class path resource [db.properties]
+[I][16:16:05]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@42ae51c0: startup date [Tue Nov 03 16:16:05 CST 2015]; root of context hierarchy
+[I][16:16:05]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:16:06]Loading properties file from class path resource [db.properties]
+[I][16:17:48]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:17:48 CST 2015]; root of context hierarchy
+[I][16:17:48]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:17:49]Loading properties file from class path resource [db.properties]
+[I][16:17:49]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[I][16:17:50]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[I][16:18:11]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:18:11 CST 2015]; root of context hierarchy
+[I][16:18:11]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:18:12]Loading properties file from class path resource [db.properties]
+[I][16:18:13]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[I][16:18:13]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[I][16:18:25]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a540251: startup date [Tue Nov 03 16:18:25 CST 2015]; root of context hierarchy
+[I][16:18:25]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:18:25]Loading properties file from class path resource [db.properties]
+[I][16:18:32]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:18:32 CST 2015]; root of context hierarchy
+[I][16:18:32]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:18:33]Loading properties file from class path resource [db.properties]
+[I][16:18:34]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[I][16:18:34]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[I][16:19:23]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c21bae0: startup date [Tue Nov 03 16:19:23 CST 2015]; root of context hierarchy
+[I][16:19:23]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:19:23]Loading properties file from class path resource [db.properties]
+[I][16:19:25]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+[I][16:19:25]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+[I][16:22:22]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:22:22 CST 2015]; root of context hierarchy
+[I][16:22:22]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:22:22]Loading properties file from class path resource [db.properties]
+[I][16:22:39]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@735a5cd5: startup date [Tue Nov 03 16:22:39 CST 2015]; root of context hierarchy
+[I][16:22:39]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:22:40]Loading properties file from class path resource [db.properties]
+[I][16:25:48]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:25:48 CST 2015]; root of context hierarchy
+[I][16:25:48]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:25:49]Loading properties file from class path resource [db.properties]
+[I][16:26:03]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11641923: startup date [Tue Nov 03 16:26:03 CST 2015]; root of context hierarchy
+[I][16:26:03]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:26:03]Loading properties file from class path resource [db.properties]
+[I][16:26:14]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a540251: startup date [Tue Nov 03 16:26:14 CST 2015]; root of context hierarchy
+[I][16:26:14]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][16:26:15]Loading properties file from class path resource [db.properties]

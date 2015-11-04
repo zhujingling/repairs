@@ -25,7 +25,6 @@ public class test {
 		user.setUDepartment("1");
 		user.setUEmail("971319231@qq.com");
 		user.setUGroup("1");
-		user.setUId("11212");
 		user.setUName("zhujingling");
 		user.setUPhone("15295953561");
 		user.setUPwd("1234456");

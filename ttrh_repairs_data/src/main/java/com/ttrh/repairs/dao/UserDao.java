@@ -1,6 +1,6 @@
 package com.ttrh.repairs.dao;
 
-import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 import com.ttrh.repairs.entity.User;
 
@@ -16,15 +16,15 @@ public interface UserDao {
 	/*
 	 * 校验用户
 	 */
-	User checkUName(String uName);
+	User checkUName(@Param("uName")String uName);
 	/*
 	 * 检验密码
 	 */
 	
-	User checkUPwd(String uName,String uPwd);
+	User checkUPwd(@Param("uName")String uName,@Param("uPwd")String uPwd);
 	
 	/*
 	 * 得到用户信息
 	 */
-	User getUserInfo(String uName,String uPwd);
+	User getUserInfo(@Param("uName")String uName,@Param("uPwd")String uPwd);
 }

@@ -1,44 +1,196 @@
-[I][16:14:12]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:14:12 CST 2015]; root of context hierarchy
-[I][16:14:12]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:14:12]Loading properties file from class path resource [db.properties]
-[I][16:16:05]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@42ae51c0: startup date [Tue Nov 03 16:16:05 CST 2015]; root of context hierarchy
-[I][16:16:05]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:16:06]Loading properties file from class path resource [db.properties]
-[I][16:17:48]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:17:48 CST 2015]; root of context hierarchy
-[I][16:17:48]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:17:49]Loading properties file from class path resource [db.properties]
-[I][16:17:49]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
-[I][16:17:50]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
-[I][16:18:11]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:18:11 CST 2015]; root of context hierarchy
-[I][16:18:11]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:18:12]Loading properties file from class path resource [db.properties]
-[I][16:18:13]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
-[I][16:18:13]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
-[I][16:18:25]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a540251: startup date [Tue Nov 03 16:18:25 CST 2015]; root of context hierarchy
-[I][16:18:25]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:18:25]Loading properties file from class path resource [db.properties]
-[I][16:18:32]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:18:32 CST 2015]; root of context hierarchy
-[I][16:18:32]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:18:33]Loading properties file from class path resource [db.properties]
-[I][16:18:34]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
-[I][16:18:34]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
-[I][16:19:23]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c21bae0: startup date [Tue Nov 03 16:19:23 CST 2015]; root of context hierarchy
-[I][16:19:23]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:19:23]Loading properties file from class path resource [db.properties]
-[I][16:19:25]Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
-[I][16:19:25]SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
-[I][16:22:22]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:22:22 CST 2015]; root of context hierarchy
-[I][16:22:22]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:22:22]Loading properties file from class path resource [db.properties]
-[I][16:22:39]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@735a5cd5: startup date [Tue Nov 03 16:22:39 CST 2015]; root of context hierarchy
-[I][16:22:39]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:22:40]Loading properties file from class path resource [db.properties]
-[I][16:25:48]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3184df1d: startup date [Tue Nov 03 16:25:48 CST 2015]; root of context hierarchy
-[I][16:25:48]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:25:49]Loading properties file from class path resource [db.properties]
-[I][16:26:03]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11641923: startup date [Tue Nov 03 16:26:03 CST 2015]; root of context hierarchy
-[I][16:26:03]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:26:03]Loading properties file from class path resource [db.properties]
-[I][16:26:14]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a540251: startup date [Tue Nov 03 16:26:14 CST 2015]; root of context hierarchy
-[I][16:26:14]Loading XML bean definitions from class path resource [spring-mybatis.xml]
-[I][16:26:15]Loading properties file from class path resource [db.properties]
+[I][21:10:35]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:10:35 CST 2015]; root of context hierarchy
+[I][21:10:36]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:10:38]Loading properties file from class path resource [db.properties]
+[I][21:13:32]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:13:32 CST 2015]; root of context hierarchy
+[I][21:13:33]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:13:35]Loading properties file from class path resource [db.properties]
+[I][21:22:23]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:22:23 CST 2015]; root of context hierarchy
+[I][21:22:23]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:22:25]Loading properties file from class path resource [db.properties]
+[I][21:22:39]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:22:39 CST 2015]; root of context hierarchy
+[I][21:22:39]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:22:41]Loading properties file from class path resource [db.properties]
+[I][21:22:57]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:22:57 CST 2015]; root of context hierarchy
+[I][21:22:57]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:22:59]Loading properties file from class path resource [db.properties]
+[I][21:34:45]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:34:45 CST 2015]; root of context hierarchy
+[I][21:34:46]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:34:46]Loading properties file from class path resource [db.properties]
+[I][21:35:12]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:35:12 CST 2015]; root of context hierarchy
+[I][21:35:12]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:35:13]Loading properties file from class path resource [db.properties]
+[I][21:35:49]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:35:49 CST 2015]; root of context hierarchy
+[I][21:35:49]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:35:50]Loading properties file from class path resource [db.properties]
+[I][21:36:23]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:36:23 CST 2015]; root of context hierarchy
+[I][21:36:23]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:36:24]Loading properties file from class path resource [db.properties]
+[I][21:36:45]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:36:45 CST 2015]; root of context hierarchy
+[I][21:36:45]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:36:46]Loading properties file from class path resource [db.properties]
+[I][21:37:23]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@22635ba0: startup date [Wed Nov 04 21:37:23 CST 2015]; root of context hierarchy
+[I][21:37:24]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:37:25]Loading properties file from class path resource [db.properties]
+[I][21:38:47]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:38:47 CST 2015]; root of context hierarchy
+[I][21:38:47]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:38:49]Loading properties file from class path resource [db.properties]
+[I][21:39:19]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@22635ba0: startup date [Wed Nov 04 21:39:19 CST 2015]; root of context hierarchy
+[I][21:39:19]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:39:20]Loading properties file from class path resource [db.properties]
+[I][21:40:55]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@17d99928: startup date [Wed Nov 04 21:40:55 CST 2015]; root of context hierarchy
+[I][21:40:55]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][21:40:56]Loading properties file from class path resource [db.properties]
+[I][22:30:00]Root WebApplicationContext: initialization started
+[I][22:30:00]Refreshing Root WebApplicationContext: startup date [Wed Nov 04 22:30:00 CST 2015]; root of context hierarchy
+[I][22:30:00]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][22:30:02]Loading properties file from class path resource [db.properties]
+[I][22:30:03]Root WebApplicationContext: initialization completed in 3615 ms
+[I][22:32:29]FrameworkServlet 'spring': initialization started
+[I][22:32:29]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Nov 04 22:32:29 CST 2015]; parent: Root WebApplicationContext
+[I][22:32:29]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][22:32:33]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginAction' defined in file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control\LoginAction.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.ttrh.repairs.control.LoginAction]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: ttrh_repairs_manager/test/ApplicationContextUtil
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1076)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1021)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:504)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:672)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:532)
+	at org.eclipse.jetty.servlet.ServletHolder.getServlet(ServletHolder.java:415)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:657)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.ttrh.repairs.control.LoginAction]: Constructor threw exception; nested exception is java.lang.NoClassDefFoundError: ttrh_repairs_manager/test/ApplicationContextUtil
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:164)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1069)
+	... 46 more
+Caused by: java.lang.NoClassDefFoundError: ttrh_repairs_manager/test/ApplicationContextUtil
+	at com.ttrh.repairs.control.LoginAction.<init>(LoginAction.java:19)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	... 48 more
+Caused by: java.lang.ClassNotFoundException: ttrh_repairs_manager.test.ApplicationContextUtil
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:430)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:383)
+	... 54 more
+[I][22:34:32]Root WebApplicationContext: initialization started
+[I][22:34:32]Refreshing Root WebApplicationContext: startup date [Wed Nov 04 22:34:32 CST 2015]; root of context hierarchy
+[I][22:34:33]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][22:34:34]Loading properties file from class path resource [db.properties]
+[I][22:34:35]Root WebApplicationContext: initialization completed in 3243 ms
+[I][22:34:51]FrameworkServlet 'spring': initialization started
+[I][22:34:51]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Nov 04 22:34:51 CST 2015]; parent: Root WebApplicationContext
+[I][22:34:51]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][22:34:57]Mapped "{[/index/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][22:34:57]Mapped "{[/login/login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.index(org.springframework.ui.Model)
+[I][22:34:57]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping found. Cannot map 'loginAction' bean method 
+public java.lang.String com.ttrh.repairs.control.LoginAction.login(java.lang.String,java.lang.String)
+to {[/login/login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}: There is already 'loginAction' bean method
+public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.index(org.springframework.ui.Model) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:672)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:484)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:532)
+	at org.eclipse.jetty.servlet.ServletHolder.getServlet(ServletHolder.java:415)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:657)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping found. Cannot map 'loginAction' bean method 
+public java.lang.String com.ttrh.repairs.control.LoginAction.login(java.lang.String,java.lang.String)
+to {[/login/login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}: There is already 'loginAction' bean method
+public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.index(org.springframework.ui.Model) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:192)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:164)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:124)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:126)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	... 45 more

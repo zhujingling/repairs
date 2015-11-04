@@ -2,6 +2,7 @@ package com.ttrh.repairs.dao;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import com.ttrh.repairs.entity.Repairs;
@@ -19,5 +20,5 @@ public interface RepairsDao {
 	/*
 	 * 根据用户查询保修单
 	 */
-	List<Repairs> selectRepairsByUid(String uid);
+	List<Repairs> selectRepairsByUid(@Param("UId")String uid);
 }

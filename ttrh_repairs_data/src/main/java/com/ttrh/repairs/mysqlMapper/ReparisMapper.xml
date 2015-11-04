@@ -52,7 +52,7 @@
 	<select id="selectRepairsByUid" parameterType="string"
 		resultType="com.ttrh.repairs.entity.Repairs">
 		select u.*,r.* from user u, repairs r where u.UId=r.reparisUser and
-		r.reparisUser=#{Uid}
+		r.reparisUser=#{UId}
 	</select>
 
 

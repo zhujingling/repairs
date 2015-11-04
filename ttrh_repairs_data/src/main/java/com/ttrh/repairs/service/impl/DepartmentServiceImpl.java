@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.ttrh.repairs.dao.DepartmentDao;
 import com.ttrh.repairs.entity.Department;
 import com.ttrh.repairs.service.IDepartmentService;
+import com.ttrh.repairs.utils.IdUtil;
 
 public class DepartmentServiceImpl implements IDepartmentService{
 
@@ -15,6 +16,7 @@ public class DepartmentServiceImpl implements IDepartmentService{
 	@Override
 	public int insertDepartment(Department department) {
 		// TODO Auto-generated method stub
+		department.setDepartmentId(IdUtil.Uuid());
 		return departmentDao.insertDepartment(department);
 	}
 

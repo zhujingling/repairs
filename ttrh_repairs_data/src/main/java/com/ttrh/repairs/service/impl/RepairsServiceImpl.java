@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.ttrh.repairs.dao.RepairsDao;
 import com.ttrh.repairs.entity.Repairs;
 import com.ttrh.repairs.service.IRepairsService;
+import com.ttrh.repairs.utils.IdUtil;
 
 @Service("repairsServiceImpl")
 public class RepairsServiceImpl implements IRepairsService {
@@ -18,6 +19,7 @@ public class RepairsServiceImpl implements IRepairsService {
 	@Override
 	public int insertReparis(Repairs repairs) {
 		// TODO Auto-generated method stub
+		repairs.setReparisId(IdUtil.Uuid());
 		return repairsDao.insertReparis(repairs);
 	}
 	
