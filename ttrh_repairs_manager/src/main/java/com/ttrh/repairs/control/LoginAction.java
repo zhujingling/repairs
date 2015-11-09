@@ -11,21 +11,16 @@ import com.ttrh.repairs.service.IUserService;
 import com.ttrh.repairs.utils.ApplicationContextUtil;
 
 @Controller
-@RequestMapping(value = "/login")
+@RequestMapping(value = "/")
 public class LoginAction extends BaseAction<LoginAction> {
 	@Resource
 	private IUserService userService = ApplicationContextUtil
 			.getBean("userServiceImpl");
 
 	@RequestMapping(value = "login.html")
-    public ModelAndView index(Model model) {
-        ModelAndView mv = new ModelAndView();
-        return mv;
-    }
-	
-	
-	@RequestMapping(value = "login.html")
-	public String login(String userName, String pwd) {
-		return null;
+	public ModelAndView login(Model model) {
+		ModelAndView mv = new ModelAndView();
+
+		return mv;
 	}
 }

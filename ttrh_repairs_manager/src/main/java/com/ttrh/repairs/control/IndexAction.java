@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 @Controller
-@RequestMapping("/index")
+@RequestMapping("/views/indexview")
 public class IndexAction extends BaseAction<IndexAction> {
 
 	@RequestMapping(value = "index.html")
