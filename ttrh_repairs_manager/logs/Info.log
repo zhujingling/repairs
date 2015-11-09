@@ -178,3 +178,24 @@ public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.Log
 [I][22:34:39]Loading XML bean definitions from class path resource [spring-mybatis.xml]
 [I][22:34:40]Loading properties file from class path resource [db.properties]
 [I][22:34:42]Root WebApplicationContext: initialization completed in 3090 ms
+[I][22:41:55]Root WebApplicationContext: initialization started
+[I][22:41:56]Refreshing Root WebApplicationContext: startup date [Mon Nov 09 22:41:56 CST 2015]; root of context hierarchy
+[I][22:41:56]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][22:41:57]Loading properties file from class path resource [db.properties]
+[I][22:41:58]Root WebApplicationContext: initialization completed in 3189 ms
+[I][22:42:04]FrameworkServlet 'spring': initialization started
+[I][22:42:04]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[I][22:42:04]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][22:42:11]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][22:42:11]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][22:42:12]FrameworkServlet 'spring': initialization completed in 7995 ms
+[I][22:43:03]Root WebApplicationContext: initialization started
+[I][22:43:03]Refreshing Root WebApplicationContext: startup date [Mon Nov 09 22:43:03 CST 2015]; root of context hierarchy
+[I][22:43:03]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][22:43:04]Loading properties file from class path resource [db.properties]
+[I][22:43:06]Root WebApplicationContext: initialization completed in 3019 ms
+[I][22:44:56]Root WebApplicationContext: initialization started
+[I][22:44:56]Refreshing Root WebApplicationContext: startup date [Mon Nov 09 22:44:56 CST 2015]; root of context hierarchy
+[I][22:44:56]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][22:44:58]Loading properties file from class path resource [db.properties]
+[I][22:44:59]Root WebApplicationContext: initialization completed in 2981 ms

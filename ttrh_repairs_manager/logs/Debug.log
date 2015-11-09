@@ -4823,3 +4823,949 @@ public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.Log
 [D][22:34:42]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
 [D][22:34:42]Initializing filter 'characterEncodingFilter'
 [D][22:34:42]Filter 'characterEncodingFilter' configured successfully
+[D][22:41:55]Root WebApplicationContext: initialization started
+[D][22:41:55]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:41:55]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:41:56]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:41:56]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:41:56]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:41:56]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:41:56]Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+[D][22:41:56]Refreshing Root WebApplicationContext: startup date [Mon Nov 09 22:41:56 CST 2015]; root of context hierarchy
+[D][22:41:56]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:41:56]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:41:56]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:41:56]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[D][22:41:56]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[D][22:41:56]Loading schema mappings from [META-INF/spring.schemas]
+[D][22:41:56]Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+[D][22:41:56]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+[D][22:41:56]Found XML schema [http://www.springframework.org/schema/context/spring-context-3.1.xsd] in classpath: org/springframework/context/config/spring-context-3.1.xsd
+[D][22:41:56]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+[D][22:41:56]Loading bean definitions
+[D][22:41:56]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[D][22:41:56]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:41:56]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:41:56]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:41:56]JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[D][22:41:56]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao]
+[D][22:41:56]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/dao/**/*.class]
+[D][22:41:56]Resolved location pattern [classpath*:com/ttrh/repairs/dao/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]]
+[D][22:41:56]Ignored because not a concrete top-level class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:41:56]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service]
+[D][22:41:56]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/service/**/*.class]
+[D][22:41:56]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/service/**/*.class]
+[D][22:41:56]Resolved location pattern [classpath*:com/ttrh/repairs/service/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IDepartmentService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\DepartmentServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IRepairsService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUserService.class]]
+[D][22:41:56]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class]
+[D][22:41:56]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class]
+[D][22:41:56]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class]
+[D][22:41:56]Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+[D][22:41:56]Loaded 12 bean definitions from location pattern [classpath:spring-mybatis.xml]
+[D][22:41:56]Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@150ab4ed: defining beans [repairsServiceImpl,ugroupServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager]; root of factory hierarchy
+[D][22:41:56]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:41:56]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:41:56]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[D][22:41:56]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:41:57]Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:41:57]Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:41:57]Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+[D][22:41:57]Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:41:57]Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:41:57]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:41:57]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:41:57]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:41:57]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao]
+[D][22:41:57]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/dao/**/*.class]
+[D][22:41:57]Resolved location pattern [classpath*:com/ttrh/repairs/dao/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]]
+[D][22:41:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class]
+[D][22:41:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:41:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class]
+[D][22:41:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]
+[D][22:41:57]Creating MapperFactoryBean with name 'departmentDao' and 'com.ttrh.repairs.dao.DepartmentDao' mapperInterface
+[D][22:41:57]Creating MapperFactoryBean with name 'repairsDao' and 'com.ttrh.repairs.dao.RepairsDao' mapperInterface
+[D][22:41:57]Creating MapperFactoryBean with name 'UGroupDao' and 'com.ttrh.repairs.dao.UGroupDao' mapperInterface
+[D][22:41:57]Creating MapperFactoryBean with name 'userDao' and 'com.ttrh.repairs.dao.UserDao' mapperInterface
+[D][22:41:57]Creating shared instance of singleton bean 'propertyConfigurer'
+[D][22:41:57]Creating instance of bean 'propertyConfigurer'
+[D][22:41:57]Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'propertyConfigurer'
+[D][22:41:57]Loading properties file from class path resource [db.properties]
+[D][22:41:57]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:41:57]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:41:57]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:41:57]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:41:57]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:41:57]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:41:57]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:41:57]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:41:57]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:41:57]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:41:57]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:41:57]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:41:57]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:41:57]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:41:57]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:41:57]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@56102e1c]
+[D][22:41:57]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@3af4e0bf]
+[D][22:41:57]Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5aceec94]
+[D][22:41:57]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@150ab4ed: defining beans [repairsServiceImpl,ugroupServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,departmentDao,repairsDao,UGroupDao,userDao]; root of factory hierarchy
+[D][22:41:57]Creating shared instance of singleton bean 'repairsServiceImpl'
+[D][22:41:57]Creating instance of bean 'repairsServiceImpl'
+[D][22:41:57]Registered injected element on class [com.ttrh.repairs.service.impl.RepairsServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:41:57]Eagerly caching bean 'repairsServiceImpl' to allow for resolving potential circular references
+[D][22:41:57]Processing injected method of bean 'repairsServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:41:57]Creating shared instance of singleton bean 'departmentDao'
+[D][22:41:57]Creating instance of bean 'departmentDao'
+[D][22:41:57]Eagerly caching bean 'departmentDao' to allow for resolving potential circular references
+[D][22:41:57]Creating shared instance of singleton bean 'sqlSessionFactory'
+[D][22:41:57]Creating instance of bean 'sqlSessionFactory'
+[D][22:41:57]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[D][22:41:57]Creating shared instance of singleton bean 'dataSource'
+[D][22:41:57]Creating instance of bean 'dataSource'
+[D][22:41:57]Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[D][22:41:57]Finished creating instance of bean 'dataSource'
+[D][22:41:57]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper]
+[D][22:41:57]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/mysqlMapper/*.xml]
+[D][22:41:57]Resolved location pattern [classpath:com/ttrh/repairs/mysqlMapper/*.xml] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\DepartmentMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\ReparisMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UGroupMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UserMapper.xml]]
+[D][22:41:57]Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+[D][22:41:57]Property 'configLocation' not specified, using default MyBatis Configuration
+[D][22:41:58]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\DepartmentMapper.xml]'
+[D][22:41:58]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\ReparisMapper.xml]'
+[D][22:41:58]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UGroupMapper.xml]'
+[D][22:41:58]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UserMapper.xml]'
+[D][22:41:58]Finished creating instance of bean 'sqlSessionFactory'
+[D][22:41:58]Invoking afterPropertiesSet() on bean with name 'departmentDao'
+[D][22:41:58]Finished creating instance of bean 'departmentDao'
+[D][22:41:58]Creating shared instance of singleton bean 'repairsDao'
+[D][22:41:58]Creating instance of bean 'repairsDao'
+[D][22:41:58]Eagerly caching bean 'repairsDao' to allow for resolving potential circular references
+[D][22:41:58]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:41:58]Invoking afterPropertiesSet() on bean with name 'repairsDao'
+[D][22:41:58]Finished creating instance of bean 'repairsDao'
+[D][22:41:58]Creating shared instance of singleton bean 'UGroupDao'
+[D][22:41:58]Creating instance of bean 'UGroupDao'
+[D][22:41:58]Eagerly caching bean 'UGroupDao' to allow for resolving potential circular references
+[D][22:41:58]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:41:58]Invoking afterPropertiesSet() on bean with name 'UGroupDao'
+[D][22:41:58]Finished creating instance of bean 'UGroupDao'
+[D][22:41:58]Creating shared instance of singleton bean 'userDao'
+[D][22:41:58]Creating instance of bean 'userDao'
+[D][22:41:58]Eagerly caching bean 'userDao' to allow for resolving potential circular references
+[D][22:41:58]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:41:58]Invoking afterPropertiesSet() on bean with name 'userDao'
+[D][22:41:58]Finished creating instance of bean 'userDao'
+[D][22:41:58]Returning cached instance of singleton bean 'repairsDao'
+[D][22:41:58]Autowiring by type from bean name 'repairsServiceImpl' to bean named 'repairsDao'
+[D][22:41:58]Finished creating instance of bean 'repairsServiceImpl'
+[D][22:41:58]Creating shared instance of singleton bean 'ugroupServiceImpl'
+[D][22:41:58]Creating instance of bean 'ugroupServiceImpl'
+[D][22:41:58]Registered injected element on class [com.ttrh.repairs.service.impl.UGroupService]: AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:41:58]Eagerly caching bean 'ugroupServiceImpl' to allow for resolving potential circular references
+[D][22:41:58]Processing injected method of bean 'ugroupServiceImpl': AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:41:58]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:41:58]Autowiring by type from bean name 'ugroupServiceImpl' to bean named 'UGroupDao'
+[D][22:41:58]Finished creating instance of bean 'ugroupServiceImpl'
+[D][22:41:58]Creating shared instance of singleton bean 'userServiceImpl'
+[D][22:41:58]Creating instance of bean 'userServiceImpl'
+[D][22:41:58]Registered injected element on class [com.ttrh.repairs.service.impl.UserServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:41:58]Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+[D][22:41:58]Processing injected method of bean 'userServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:41:58]Returning cached instance of singleton bean 'userDao'
+[D][22:41:58]Autowiring by type from bean name 'userServiceImpl' to bean named 'userDao'
+[D][22:41:58]Finished creating instance of bean 'userServiceImpl'
+[D][22:41:58]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'propertyConfigurer'
+[D][22:41:58]Returning cached instance of singleton bean 'dataSource'
+[D][22:41:58]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:41:58]Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:41:58]Creating shared instance of singleton bean 'transactionManager'
+[D][22:41:58]Creating instance of bean 'transactionManager'
+[D][22:41:58]Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[D][22:41:58]Returning cached instance of singleton bean 'dataSource'
+[D][22:41:58]Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[D][22:41:58]Finished creating instance of bean 'transactionManager'
+[D][22:41:58]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'departmentDao'
+[D][22:41:58]Returning cached instance of singleton bean 'repairsDao'
+[D][22:41:58]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:41:58]Returning cached instance of singleton bean 'userDao'
+[D][22:41:58]Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6b7d1df8]
+[D][22:41:58]Returning cached instance of singleton bean 'lifecycleProcessor'
+[D][22:41:58]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:41:58]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+[D][22:41:58]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+[D][22:41:58]Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+[D][22:41:58]Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[D][22:41:58]Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:41:58]Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[D][22:41:58]JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:41:58]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[D][22:41:58]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[D][22:41:58]Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[D][22:41:58]Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[D][22:41:58]Root WebApplicationContext: initialization completed in 3189 ms
+[D][22:41:58]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:41:58]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:41:58]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:41:58]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:41:58]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:41:58]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:41:58]Initializing filter 'characterEncodingFilter'
+[D][22:41:58]Filter 'characterEncodingFilter' configured successfully
+[D][22:42:04]Initializing servlet 'spring'
+[D][22:42:04]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:42:04]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:42:04]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:42:04]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:42:04]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:42:04]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:42:04]FrameworkServlet 'spring': initialization started
+[D][22:42:04]Servlet with name 'spring' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Mon Nov 09 22:41:56 CST 2015]; root of context hierarchy]
+[D][22:42:04]Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+[D][22:42:04]Searching for key 'spring.profiles.active' in [servletContextInitParams]
+[D][22:42:04]Searching for key 'spring.profiles.active' in [jndiProperties]
+[D][22:42:04]Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[D][22:42:04]Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:42:04]Looking up JNDI object with name [spring.profiles.active]
+[D][22:42:04]JNDI lookup for name [spring.profiles.active] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:42:04]Searching for key 'spring.profiles.active' in [systemProperties]
+[D][22:42:04]Searching for key 'spring.profiles.active' in [systemEnvironment]
+[D][22:42:04]Could not find key 'spring.profiles.active' in any property source. Returning [null]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [servletContextInitParams]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [jndiProperties]
+[D][22:42:04]Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[D][22:42:04]Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:42:04]Looking up JNDI object with name [spring.profiles.default]
+[D][22:42:04]JNDI lookup for name [spring.profiles.default] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:42:04]Searching for key 'spring.profiles.default' in [systemProperties]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [systemEnvironment]
+[D][22:42:04]Could not find key 'spring.profiles.default' in any property source. Returning [null]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [servletContextInitParams]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [jndiProperties]
+[D][22:42:04]Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[D][22:42:04]Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:42:04]Looking up JNDI object with name [spring.profiles.default]
+[D][22:42:04]JNDI lookup for name [spring.profiles.default] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:42:04]Searching for key 'spring.profiles.default' in [systemProperties]
+[D][22:42:04]Searching for key 'spring.profiles.default' in [systemEnvironment]
+[D][22:42:04]Could not find key 'spring.profiles.default' in any property source. Returning [null]
+[D][22:42:04]Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+[D][22:42:04]Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+[D][22:42:04]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[D][22:42:04]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:42:04]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:42:04]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:42:04]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[D][22:42:04]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[D][22:42:04]Loading schema mappings from [META-INF/spring.schemas]
+[D][22:42:04]Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+[D][22:42:04]Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+[D][22:42:10]Loading bean definitions
+[D][22:42:10]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[D][22:42:10]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:42:10]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:42:10]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:42:10]JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[D][22:42:10]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_manager/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_manager/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\entity] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\utils] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/**/*.class]
+[D][22:42:10]Resolved location pattern [classpath*:com/ttrh/repairs/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control\BaseAction.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control\IndexAction.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control\LoginAction.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\entity\Department.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\entity\Repairs.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\entity\UGroup.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\entity\User.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IDepartmentService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\DepartmentServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IRepairsService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUserService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\utils\ApplicationContextUtil.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\utils\IdUtil.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\utils\Md5Util.class]]
+[D][22:42:10]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control\IndexAction.class]
+[D][22:42:10]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_manager\target\classes\com\ttrh\repairs\control\LoginAction.class]
+[D][22:42:10]Ignored because not a concrete top-level class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:42:10]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class]
+[D][22:42:10]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class]
+[D][22:42:10]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class]
+[D][22:42:10]Loaded 23 bean definitions from location pattern [classpath:context-dispatcher.xml]
+[D][22:42:10]Bean factory for WebApplicationContext for namespace 'spring-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@35046f9f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,indexAction,loginAction,repairsServiceImpl,ugroupServiceImpl,userServiceImpl,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,viewResolver,multipartResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@150ab4ed
+[D][22:42:10]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:42:10]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:42:10]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[D][22:42:10]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:42:11]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:42:11]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:42:11]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:42:11]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:42:11]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:42:11]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:42:11]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:42:11]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:42:11]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:42:11]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:42:11]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1af66e64]
+[D][22:42:11]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@46b755a6]
+[D][22:42:11]Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@7c63b628]
+[D][22:42:11]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@35046f9f: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,indexAction,loginAction,repairsServiceImpl,ugroupServiceImpl,userServiceImpl,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,mvcUriComponentsContributor,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,viewResolver,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@150ab4ed
+[D][22:42:11]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:42:11]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:42:11]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:42:11]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:42:11]Creating shared instance of singleton bean 'indexAction'
+[D][22:42:11]Creating instance of bean 'indexAction'
+[D][22:42:11]Eagerly caching bean 'indexAction' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'indexAction'
+[D][22:42:11]Creating shared instance of singleton bean 'loginAction'
+[D][22:42:11]Creating instance of bean 'loginAction'
+[D][22:42:11]Returning cached instance of singleton bean 'userServiceImpl'
+[D][22:42:11]Registered injected element on class [com.ttrh.repairs.control.LoginAction]: ResourceElement for private com.ttrh.repairs.service.IUserService com.ttrh.repairs.control.LoginAction.userService
+[D][22:42:11]Eagerly caching bean 'loginAction' to allow for resolving potential circular references
+[D][22:42:11]Processing injected method of bean 'loginAction': ResourceElement for private com.ttrh.repairs.service.IUserService com.ttrh.repairs.control.LoginAction.userService
+[D][22:42:11]Creating shared instance of singleton bean 'userServiceImpl'
+[D][22:42:11]Creating instance of bean 'userServiceImpl'
+[D][22:42:11]Registered injected element on class [com.ttrh.repairs.service.impl.UserServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:42:11]Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+[D][22:42:11]Processing injected method of bean 'userServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:42:11]Returning cached instance of singleton bean 'userDao'
+[D][22:42:11]Autowiring by type from bean name 'userServiceImpl' to bean named 'userDao'
+[D][22:42:11]Finished creating instance of bean 'userServiceImpl'
+[D][22:42:11]Finished creating instance of bean 'loginAction'
+[D][22:42:11]Creating shared instance of singleton bean 'repairsServiceImpl'
+[D][22:42:11]Creating instance of bean 'repairsServiceImpl'
+[D][22:42:11]Registered injected element on class [com.ttrh.repairs.service.impl.RepairsServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:42:11]Eagerly caching bean 'repairsServiceImpl' to allow for resolving potential circular references
+[D][22:42:11]Processing injected method of bean 'repairsServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:42:11]Returning cached instance of singleton bean 'repairsDao'
+[D][22:42:11]Autowiring by type from bean name 'repairsServiceImpl' to bean named 'repairsDao'
+[D][22:42:11]Finished creating instance of bean 'repairsServiceImpl'
+[D][22:42:11]Creating shared instance of singleton bean 'ugroupServiceImpl'
+[D][22:42:11]Creating instance of bean 'ugroupServiceImpl'
+[D][22:42:11]Registered injected element on class [com.ttrh.repairs.service.impl.UGroupService]: AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:42:11]Eagerly caching bean 'ugroupServiceImpl' to allow for resolving potential circular references
+[D][22:42:11]Processing injected method of bean 'ugroupServiceImpl': AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:42:11]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:42:11]Autowiring by type from bean name 'ugroupServiceImpl' to bean named 'UGroupDao'
+[D][22:42:11]Finished creating instance of bean 'ugroupServiceImpl'
+[D][22:42:11]Returning cached instance of singleton bean 'userServiceImpl'
+[D][22:42:11]Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[D][22:42:11]Creating instance of bean 'mvcContentNegotiationManager'
+[D][22:42:11]Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+[D][22:42:11]Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+[D][22:42:11]Finished creating instance of bean 'mvcContentNegotiationManager'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+[D][22:42:11]Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+[D][22:42:11]Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+[D][22:42:11]Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[D][22:42:11]Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[D][22:42:11]Creating instance of bean '(inner bean)#5e015781'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:11]Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:11]Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+[D][22:42:11]Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:11]Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:11]Finished creating instance of bean '(inner bean)#5e015781'
+[D][22:42:11]No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+[D][22:42:11]Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+[D][22:42:11]Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[D][22:42:11]Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+[D][22:42:11]Looking for request mappings in application context: WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[D][22:42:11]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[D][22:42:11]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[D][22:42:11]Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+[D][22:42:11]Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:11]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+[D][22:42:11]Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+[D][22:42:11]Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+[D][22:42:11]Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[D][22:42:11]Creating instance of bean '(inner bean)#5a1a72f5'
+[D][22:42:11]Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:11]Finished creating instance of bean '(inner bean)#5a1a72f5'
+[D][22:42:11]Creating instance of bean '(inner bean)#1825464e'
+[D][22:42:11]Finished creating instance of bean '(inner bean)#1825464e'
+[D][22:42:11]Creating instance of bean '(inner bean)#597549a9'
+[D][22:42:11]Finished creating instance of bean '(inner bean)#597549a9'
+[D][22:42:11]Creating instance of bean '(inner bean)#105e2e73'
+[D][22:42:11]Finished creating instance of bean '(inner bean)#105e2e73'
+[D][22:42:11]Creating instance of bean '(inner bean)#639505d0'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#639505d0'
+[D][22:42:12]Creating instance of bean '(inner bean)#48fe1979'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#48fe1979'
+[D][22:42:12]Creating instance of bean '(inner bean)#2556ec7'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#2556ec7'
+[D][22:42:12]Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+[D][22:42:12]Looking for controller advice: WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+[D][22:42:12]Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[D][22:42:12]Creating instance of bean 'mvcUriComponentsContributor'
+[D][22:42:12]Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+[D][22:42:12]Creating instance of bean '(inner bean)#505e639c'
+[D][22:42:12]Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[D][22:42:12]Creating instance of bean '(inner bean)#5a1a72f5#1'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#5a1a72f5#1'
+[D][22:42:12]Creating instance of bean '(inner bean)#1825464e#1'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#1825464e#1'
+[D][22:42:12]Creating instance of bean '(inner bean)#597549a9#1'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#597549a9#1'
+[D][22:42:12]Creating instance of bean '(inner bean)#105e2e73#1'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#105e2e73#1'
+[D][22:42:12]Creating instance of bean '(inner bean)#639505d0#1'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#639505d0#1'
+[D][22:42:12]Creating instance of bean '(inner bean)#48fe1979#1'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#48fe1979#1'
+[D][22:42:12]Creating instance of bean '(inner bean)#2556ec7#1'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#2556ec7#1'
+[D][22:42:12]Invoking afterPropertiesSet() on bean with name '(inner bean)#505e639c'
+[D][22:42:12]Looking for controller advice: WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[D][22:42:12]Returning eagerly cached instance of singleton bean 'mvcUriComponentsContributor' that is not fully initialized yet - a consequence of a circular reference
+[D][22:42:12]Finished creating instance of bean '(inner bean)#505e639c'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[D][22:42:12]Invoking afterPropertiesSet() on bean with name 'mvcUriComponentsContributor'
+[D][22:42:12]Finished creating instance of bean 'mvcUriComponentsContributor'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[D][22:42:12]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[D][22:42:12]Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+[D][22:42:12]Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+[D][22:42:12]Creating instance of bean '(inner bean)#1825464e#2'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#1825464e#2'
+[D][22:42:12]Creating instance of bean '(inner bean)#597549a9#2'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#597549a9#2'
+[D][22:42:12]Creating instance of bean '(inner bean)#105e2e73#2'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#105e2e73#2'
+[D][22:42:12]Creating instance of bean '(inner bean)#639505d0#2'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#639505d0#2'
+[D][22:42:12]Creating instance of bean '(inner bean)#48fe1979#2'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#48fe1979#2'
+[D][22:42:12]Creating instance of bean '(inner bean)#2556ec7#2'
+[D][22:42:12]Finished creating instance of bean '(inner bean)#2556ec7#2'
+[D][22:42:12]Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[D][22:42:12]Looking for exception mappings: WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[D][22:42:12]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+[D][22:42:12]Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+[D][22:42:12]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+[D][22:42:12]Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+[D][22:42:12]Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+[D][22:42:12]Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[D][22:42:12]Looking for URL mappings in application context: WebApplicationContext for namespace 'spring-servlet': startup date [Mon Nov 09 22:42:04 CST 2015]; parent: Root WebApplicationContext
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+[D][22:42:12]Rejected bean name 'indexAction': no URL paths identified
+[D][22:42:12]Rejected bean name 'loginAction': no URL paths identified
+[D][22:42:12]Rejected bean name 'repairsServiceImpl': no URL paths identified
+[D][22:42:12]Rejected bean name 'ugroupServiceImpl': no URL paths identified
+[D][22:42:12]Rejected bean name 'userServiceImpl': no URL paths identified
+[D][22:42:12]Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+[D][22:42:12]Rejected bean name 'viewResolver': no URL paths identified
+[D][22:42:12]Rejected bean name 'multipartResolver': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+[D][22:42:12]Rejected bean name 'environment': no URL paths identified
+[D][22:42:12]Rejected bean name 'systemProperties': no URL paths identified
+[D][22:42:12]Rejected bean name 'systemEnvironment': no URL paths identified
+[D][22:42:12]Rejected bean name 'servletConfig': no URL paths identified
+[D][22:42:12]Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+[D][22:42:12]Rejected bean name 'messageSource': no URL paths identified
+[D][22:42:12]Rejected bean name 'applicationEventMulticaster': no URL paths identified
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+[D][22:42:12]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+[D][22:42:12]Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+[D][22:42:12]Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+[D][22:42:12]Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+[D][22:42:12]Creating shared instance of singleton bean 'viewResolver'
+[D][22:42:12]Creating instance of bean 'viewResolver'
+[D][22:42:12]Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+[D][22:42:12]Finished creating instance of bean 'viewResolver'
+[D][22:42:12]Creating shared instance of singleton bean 'multipartResolver'
+[D][22:42:12]Creating instance of bean 'multipartResolver'
+[D][22:42:12]Eagerly caching bean 'multipartResolver' to allow for resolving potential circular references
+[D][22:42:12]Finished creating instance of bean 'multipartResolver'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:42:12]Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2f17c9c3]
+[D][22:42:12]Returning cached instance of singleton bean 'lifecycleProcessor'
+[D][22:42:12]Returning cached instance of singleton bean 'multipartResolver'
+[D][22:42:12]Using MultipartResolver [org.springframework.web.multipart.commons.CommonsMultipartResolver@577c4265]
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+[D][22:42:12]Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@b7f5768]
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+[D][22:42:12]Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@29540bda]
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+[D][22:42:12]Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+[D][22:42:12]Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@48cab86f]
+[D][22:42:12]Returning cached instance of singleton bean 'viewResolver'
+[D][22:42:12]Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+[D][22:42:12]Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+[D][22:42:12]Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@4e926c85]
+[D][22:42:12]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+[D][22:42:12]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+[D][22:42:12]Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+[D][22:42:12]Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[D][22:42:12]Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:42:12]Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[D][22:42:12]JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:42:12]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[D][22:42:12]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[D][22:42:12]Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[D][22:42:12]Published WebApplicationContext of servlet 'spring' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.spring]
+[D][22:42:12]FrameworkServlet 'spring': initialization completed in 7995 ms
+[D][22:42:12]Servlet 'spring' configured successfully
+[D][22:42:12]DispatcherServlet with name 'spring' processing GET request for [/login.html]
+[D][22:42:12]Looking up handler method for path /login.html
+[D][22:42:12]Returning handler method [public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)]
+[D][22:42:12]Returning cached instance of singleton bean 'loginAction'
+[D][22:42:12]Last-Modified value for [/login.html] is: -1
+[D][22:42:12]Invoking afterPropertiesSet() on bean with name 'login'
+[D][22:42:12]Rendering view [org.springframework.web.servlet.view.JstlView: name 'login'; URL [/WEB-INF/views/login.jsp]] in DispatcherServlet with name 'spring'
+[D][22:42:12]Forwarding to resource [/WEB-INF/views/login.jsp] in InternalResourceView 'login'
+[D][22:42:16]Successfully completed request
+[D][22:42:16]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:43:03]Root WebApplicationContext: initialization started
+[D][22:43:03]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:43:03]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:43:03]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:43:03]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:43:03]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:43:03]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:43:03]Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+[D][22:43:03]Refreshing Root WebApplicationContext: startup date [Mon Nov 09 22:43:03 CST 2015]; root of context hierarchy
+[D][22:43:03]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:43:03]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:43:03]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:43:03]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[D][22:43:03]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[D][22:43:03]Loading schema mappings from [META-INF/spring.schemas]
+[D][22:43:03]Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+[D][22:43:03]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+[D][22:43:03]Found XML schema [http://www.springframework.org/schema/context/spring-context-3.1.xsd] in classpath: org/springframework/context/config/spring-context-3.1.xsd
+[D][22:43:03]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+[D][22:43:03]Loading bean definitions
+[D][22:43:03]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[D][22:43:03]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:43:03]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:43:03]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:43:03]JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[D][22:43:03]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao]
+[D][22:43:03]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/dao/**/*.class]
+[D][22:43:03]Resolved location pattern [classpath*:com/ttrh/repairs/dao/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]]
+[D][22:43:04]Ignored because not a concrete top-level class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:43:04]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service]
+[D][22:43:04]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/service/**/*.class]
+[D][22:43:04]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/service/**/*.class]
+[D][22:43:04]Resolved location pattern [classpath*:com/ttrh/repairs/service/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IDepartmentService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\DepartmentServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IRepairsService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUserService.class]]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class]
+[D][22:43:04]Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+[D][22:43:04]Loaded 12 bean definitions from location pattern [classpath:spring-mybatis.xml]
+[D][22:43:04]Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@3b220bcb: defining beans [repairsServiceImpl,ugroupServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager]; root of factory hierarchy
+[D][22:43:04]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:43:04]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:43:04]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:43:04]Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:43:04]Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:43:04]Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+[D][22:43:04]Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:43:04]Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:43:04]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:43:04]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:43:04]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:43:04]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao]
+[D][22:43:04]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/dao/**/*.class]
+[D][22:43:04]Resolved location pattern [classpath*:com/ttrh/repairs/dao/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class]
+[D][22:43:04]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]
+[D][22:43:04]Creating MapperFactoryBean with name 'departmentDao' and 'com.ttrh.repairs.dao.DepartmentDao' mapperInterface
+[D][22:43:04]Creating MapperFactoryBean with name 'repairsDao' and 'com.ttrh.repairs.dao.RepairsDao' mapperInterface
+[D][22:43:04]Creating MapperFactoryBean with name 'UGroupDao' and 'com.ttrh.repairs.dao.UGroupDao' mapperInterface
+[D][22:43:04]Creating MapperFactoryBean with name 'userDao' and 'com.ttrh.repairs.dao.UserDao' mapperInterface
+[D][22:43:04]Creating shared instance of singleton bean 'propertyConfigurer'
+[D][22:43:04]Creating instance of bean 'propertyConfigurer'
+[D][22:43:04]Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'propertyConfigurer'
+[D][22:43:04]Loading properties file from class path resource [db.properties]
+[D][22:43:04]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:43:04]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:43:04]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:43:04]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:43:04]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:43:04]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:43:04]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:43:04]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:43:04]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:43:04]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:43:04]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:43:04]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:43:04]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:43:04]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:43:04]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:43:04]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@285d851a]
+[D][22:43:04]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@332a7fce]
+[D][22:43:04]Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@389adf1d]
+[D][22:43:04]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3b220bcb: defining beans [repairsServiceImpl,ugroupServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,departmentDao,repairsDao,UGroupDao,userDao]; root of factory hierarchy
+[D][22:43:04]Creating shared instance of singleton bean 'repairsServiceImpl'
+[D][22:43:04]Creating instance of bean 'repairsServiceImpl'
+[D][22:43:04]Registered injected element on class [com.ttrh.repairs.service.impl.RepairsServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:43:04]Eagerly caching bean 'repairsServiceImpl' to allow for resolving potential circular references
+[D][22:43:04]Processing injected method of bean 'repairsServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:43:04]Creating shared instance of singleton bean 'departmentDao'
+[D][22:43:04]Creating instance of bean 'departmentDao'
+[D][22:43:04]Eagerly caching bean 'departmentDao' to allow for resolving potential circular references
+[D][22:43:04]Creating shared instance of singleton bean 'sqlSessionFactory'
+[D][22:43:04]Creating instance of bean 'sqlSessionFactory'
+[D][22:43:04]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[D][22:43:04]Creating shared instance of singleton bean 'dataSource'
+[D][22:43:04]Creating instance of bean 'dataSource'
+[D][22:43:04]Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[D][22:43:04]Finished creating instance of bean 'dataSource'
+[D][22:43:04]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper]
+[D][22:43:04]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/mysqlMapper/*.xml]
+[D][22:43:04]Resolved location pattern [classpath:com/ttrh/repairs/mysqlMapper/*.xml] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\DepartmentMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\ReparisMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UGroupMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UserMapper.xml]]
+[D][22:43:04]Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+[D][22:43:04]Property 'configLocation' not specified, using default MyBatis Configuration
+[D][22:43:05]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\DepartmentMapper.xml]'
+[D][22:43:05]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\ReparisMapper.xml]'
+[D][22:43:05]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UGroupMapper.xml]'
+[D][22:43:05]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UserMapper.xml]'
+[D][22:43:05]Finished creating instance of bean 'sqlSessionFactory'
+[D][22:43:05]Invoking afterPropertiesSet() on bean with name 'departmentDao'
+[D][22:43:05]Finished creating instance of bean 'departmentDao'
+[D][22:43:05]Creating shared instance of singleton bean 'repairsDao'
+[D][22:43:05]Creating instance of bean 'repairsDao'
+[D][22:43:05]Eagerly caching bean 'repairsDao' to allow for resolving potential circular references
+[D][22:43:05]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:43:05]Invoking afterPropertiesSet() on bean with name 'repairsDao'
+[D][22:43:05]Finished creating instance of bean 'repairsDao'
+[D][22:43:05]Creating shared instance of singleton bean 'UGroupDao'
+[D][22:43:05]Creating instance of bean 'UGroupDao'
+[D][22:43:05]Eagerly caching bean 'UGroupDao' to allow for resolving potential circular references
+[D][22:43:05]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:43:05]Invoking afterPropertiesSet() on bean with name 'UGroupDao'
+[D][22:43:05]Finished creating instance of bean 'UGroupDao'
+[D][22:43:05]Creating shared instance of singleton bean 'userDao'
+[D][22:43:05]Creating instance of bean 'userDao'
+[D][22:43:05]Eagerly caching bean 'userDao' to allow for resolving potential circular references
+[D][22:43:05]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:43:05]Invoking afterPropertiesSet() on bean with name 'userDao'
+[D][22:43:05]Finished creating instance of bean 'userDao'
+[D][22:43:05]Returning cached instance of singleton bean 'repairsDao'
+[D][22:43:05]Autowiring by type from bean name 'repairsServiceImpl' to bean named 'repairsDao'
+[D][22:43:05]Finished creating instance of bean 'repairsServiceImpl'
+[D][22:43:05]Creating shared instance of singleton bean 'ugroupServiceImpl'
+[D][22:43:05]Creating instance of bean 'ugroupServiceImpl'
+[D][22:43:05]Registered injected element on class [com.ttrh.repairs.service.impl.UGroupService]: AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:43:05]Eagerly caching bean 'ugroupServiceImpl' to allow for resolving potential circular references
+[D][22:43:05]Processing injected method of bean 'ugroupServiceImpl': AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:43:05]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:43:05]Autowiring by type from bean name 'ugroupServiceImpl' to bean named 'UGroupDao'
+[D][22:43:05]Finished creating instance of bean 'ugroupServiceImpl'
+[D][22:43:05]Creating shared instance of singleton bean 'userServiceImpl'
+[D][22:43:05]Creating instance of bean 'userServiceImpl'
+[D][22:43:05]Registered injected element on class [com.ttrh.repairs.service.impl.UserServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:43:05]Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+[D][22:43:05]Processing injected method of bean 'userServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:43:05]Returning cached instance of singleton bean 'userDao'
+[D][22:43:05]Autowiring by type from bean name 'userServiceImpl' to bean named 'userDao'
+[D][22:43:05]Finished creating instance of bean 'userServiceImpl'
+[D][22:43:05]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:43:05]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:43:05]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:43:05]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:43:05]Returning cached instance of singleton bean 'propertyConfigurer'
+[D][22:43:05]Returning cached instance of singleton bean 'dataSource'
+[D][22:43:05]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:43:05]Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:43:05]Creating shared instance of singleton bean 'transactionManager'
+[D][22:43:05]Creating instance of bean 'transactionManager'
+[D][22:43:05]Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[D][22:43:06]Returning cached instance of singleton bean 'dataSource'
+[D][22:43:06]Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[D][22:43:06]Finished creating instance of bean 'transactionManager'
+[D][22:43:06]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:43:06]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:43:06]Returning cached instance of singleton bean 'departmentDao'
+[D][22:43:06]Returning cached instance of singleton bean 'repairsDao'
+[D][22:43:06]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:43:06]Returning cached instance of singleton bean 'userDao'
+[D][22:43:06]Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6ea94d6a]
+[D][22:43:06]Returning cached instance of singleton bean 'lifecycleProcessor'
+[D][22:43:06]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:43:06]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+[D][22:43:06]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+[D][22:43:06]Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+[D][22:43:06]Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[D][22:43:06]Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:43:06]Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[D][22:43:06]JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:43:06]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[D][22:43:06]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[D][22:43:06]Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[D][22:43:06]Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[D][22:43:06]Root WebApplicationContext: initialization completed in 3019 ms
+[D][22:43:06]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:43:06]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:43:06]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:43:06]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:43:06]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:43:06]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:43:06]Initializing filter 'characterEncodingFilter'
+[D][22:43:06]Filter 'characterEncodingFilter' configured successfully
+[D][22:44:56]Root WebApplicationContext: initialization started
+[D][22:44:56]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:44:56]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:44:56]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:44:56]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:44:56]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:44:56]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:44:56]Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+[D][22:44:56]Refreshing Root WebApplicationContext: startup date [Mon Nov 09 22:44:56 CST 2015]; root of context hierarchy
+[D][22:44:56]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:44:56]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:44:56]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:44:56]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[D][22:44:56]Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[D][22:44:56]Loading schema mappings from [META-INF/spring.schemas]
+[D][22:44:56]Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+[D][22:44:56]Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+[D][22:44:57]Found XML schema [http://www.springframework.org/schema/context/spring-context-3.1.xsd] in classpath: org/springframework/context/config/spring-context-3.1.xsd
+[D][22:44:57]Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+[D][22:44:57]Loading bean definitions
+[D][22:44:57]Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[D][22:44:57]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:44:57]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:44:57]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:44:57]JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[D][22:44:57]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao]
+[D][22:44:57]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/dao/**/*.class]
+[D][22:44:57]Resolved location pattern [classpath*:com/ttrh/repairs/dao/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]]
+[D][22:44:57]Ignored because not a concrete top-level class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:44:57]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service]
+[D][22:44:57]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/service/**/*.class]
+[D][22:44:57]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/service/**/*.class]
+[D][22:44:57]Resolved location pattern [classpath*:com/ttrh/repairs/service/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IDepartmentService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\DepartmentServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IRepairsService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUGroupService.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\IUserService.class]]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\RepairsServiceImpl.class]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UGroupService.class]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\service\impl\UserServiceImpl.class]
+[D][22:44:57]Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+[D][22:44:57]Loaded 12 bean definitions from location pattern [classpath:spring-mybatis.xml]
+[D][22:44:57]Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@2611b9a3: defining beans [repairsServiceImpl,ugroupServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager]; root of factory hierarchy
+[D][22:44:57]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:44:57]Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:44:57]Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+[D][22:44:57]Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:44:57]Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:44:57]Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:44:57]Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+[D][22:44:57]Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:44:57]Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:44:57]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:44:57]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:44:57]Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[D][22:44:57]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao]
+[D][22:44:57]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/dao/**/*.class]
+[D][22:44:57]Resolved location pattern [classpath*:com/ttrh/repairs/dao/**/*.class] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\DepartmentDao.class]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\RepairsDao.class]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UGroupDao.class]
+[D][22:44:57]Identified candidate component class: file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\dao\UserDao.class]
+[D][22:44:57]Creating MapperFactoryBean with name 'departmentDao' and 'com.ttrh.repairs.dao.DepartmentDao' mapperInterface
+[D][22:44:57]Creating MapperFactoryBean with name 'repairsDao' and 'com.ttrh.repairs.dao.RepairsDao' mapperInterface
+[D][22:44:57]Creating MapperFactoryBean with name 'UGroupDao' and 'com.ttrh.repairs.dao.UGroupDao' mapperInterface
+[D][22:44:57]Creating MapperFactoryBean with name 'userDao' and 'com.ttrh.repairs.dao.UserDao' mapperInterface
+[D][22:44:57]Creating shared instance of singleton bean 'propertyConfigurer'
+[D][22:44:57]Creating instance of bean 'propertyConfigurer'
+[D][22:44:57]Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'propertyConfigurer'
+[D][22:44:58]Loading properties file from class path resource [db.properties]
+[D][22:44:58]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:44:58]Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:44:58]Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:44:58]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:44:58]Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:44:58]Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:44:58]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:44:58]Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:44:58]Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:44:58]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:44:58]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:44:58]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:44:58]Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:44:58]Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:44:58]Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:44:58]Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@72b16078]
+[D][22:44:58]Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@782a4fff]
+[D][22:44:58]Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@60cf80e7]
+[D][22:44:58]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2611b9a3: defining beans [repairsServiceImpl,ugroupServiceImpl,userServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyConfigurer,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,departmentDao,repairsDao,UGroupDao,userDao]; root of factory hierarchy
+[D][22:44:58]Creating shared instance of singleton bean 'repairsServiceImpl'
+[D][22:44:58]Creating instance of bean 'repairsServiceImpl'
+[D][22:44:58]Registered injected element on class [com.ttrh.repairs.service.impl.RepairsServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:44:58]Eagerly caching bean 'repairsServiceImpl' to allow for resolving potential circular references
+[D][22:44:58]Processing injected method of bean 'repairsServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.RepairsDao com.ttrh.repairs.service.impl.RepairsServiceImpl.repairsDao
+[D][22:44:58]Creating shared instance of singleton bean 'departmentDao'
+[D][22:44:58]Creating instance of bean 'departmentDao'
+[D][22:44:58]Eagerly caching bean 'departmentDao' to allow for resolving potential circular references
+[D][22:44:58]Creating shared instance of singleton bean 'sqlSessionFactory'
+[D][22:44:58]Creating instance of bean 'sqlSessionFactory'
+[D][22:44:58]Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+[D][22:44:58]Creating shared instance of singleton bean 'dataSource'
+[D][22:44:58]Creating instance of bean 'dataSource'
+[D][22:44:58]Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+[D][22:44:58]Finished creating instance of bean 'dataSource'
+[D][22:44:58]Looking for matching resources in directory tree [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper]
+[D][22:44:58]Searching directory [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper] for files matching pattern [G:/WorkedCompany/yanhuaProject/src/repairs/ttrh_repairs_data/target/classes/com/ttrh/repairs/mysqlMapper/*.xml]
+[D][22:44:58]Resolved location pattern [classpath:com/ttrh/repairs/mysqlMapper/*.xml] to resources [file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\DepartmentMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\ReparisMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UGroupMapper.xml], file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UserMapper.xml]]
+[D][22:44:58]Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+[D][22:44:58]Property 'configLocation' not specified, using default MyBatis Configuration
+[D][22:44:58]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\DepartmentMapper.xml]'
+[D][22:44:59]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\ReparisMapper.xml]'
+[D][22:44:59]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UGroupMapper.xml]'
+[D][22:44:59]Parsed mapper file: 'file [G:\WorkedCompany\yanhuaProject\src\repairs\ttrh_repairs_data\target\classes\com\ttrh\repairs\mysqlMapper\UserMapper.xml]'
+[D][22:44:59]Finished creating instance of bean 'sqlSessionFactory'
+[D][22:44:59]Invoking afterPropertiesSet() on bean with name 'departmentDao'
+[D][22:44:59]Finished creating instance of bean 'departmentDao'
+[D][22:44:59]Creating shared instance of singleton bean 'repairsDao'
+[D][22:44:59]Creating instance of bean 'repairsDao'
+[D][22:44:59]Eagerly caching bean 'repairsDao' to allow for resolving potential circular references
+[D][22:44:59]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:44:59]Invoking afterPropertiesSet() on bean with name 'repairsDao'
+[D][22:44:59]Finished creating instance of bean 'repairsDao'
+[D][22:44:59]Creating shared instance of singleton bean 'UGroupDao'
+[D][22:44:59]Creating instance of bean 'UGroupDao'
+[D][22:44:59]Eagerly caching bean 'UGroupDao' to allow for resolving potential circular references
+[D][22:44:59]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:44:59]Invoking afterPropertiesSet() on bean with name 'UGroupDao'
+[D][22:44:59]Finished creating instance of bean 'UGroupDao'
+[D][22:44:59]Creating shared instance of singleton bean 'userDao'
+[D][22:44:59]Creating instance of bean 'userDao'
+[D][22:44:59]Eagerly caching bean 'userDao' to allow for resolving potential circular references
+[D][22:44:59]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:44:59]Invoking afterPropertiesSet() on bean with name 'userDao'
+[D][22:44:59]Finished creating instance of bean 'userDao'
+[D][22:44:59]Returning cached instance of singleton bean 'repairsDao'
+[D][22:44:59]Autowiring by type from bean name 'repairsServiceImpl' to bean named 'repairsDao'
+[D][22:44:59]Finished creating instance of bean 'repairsServiceImpl'
+[D][22:44:59]Creating shared instance of singleton bean 'ugroupServiceImpl'
+[D][22:44:59]Creating instance of bean 'ugroupServiceImpl'
+[D][22:44:59]Registered injected element on class [com.ttrh.repairs.service.impl.UGroupService]: AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:44:59]Eagerly caching bean 'ugroupServiceImpl' to allow for resolving potential circular references
+[D][22:44:59]Processing injected method of bean 'ugroupServiceImpl': AutowiredFieldElement for private com.ttrh.repairs.dao.UGroupDao com.ttrh.repairs.service.impl.UGroupService.ugroupDao
+[D][22:44:59]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:44:59]Autowiring by type from bean name 'ugroupServiceImpl' to bean named 'UGroupDao'
+[D][22:44:59]Finished creating instance of bean 'ugroupServiceImpl'
+[D][22:44:59]Creating shared instance of singleton bean 'userServiceImpl'
+[D][22:44:59]Creating instance of bean 'userServiceImpl'
+[D][22:44:59]Registered injected element on class [com.ttrh.repairs.service.impl.UserServiceImpl]: AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:44:59]Eagerly caching bean 'userServiceImpl' to allow for resolving potential circular references
+[D][22:44:59]Processing injected method of bean 'userServiceImpl': AutowiredFieldElement for public com.ttrh.repairs.dao.UserDao com.ttrh.repairs.service.impl.UserServiceImpl.userDao
+[D][22:44:59]Returning cached instance of singleton bean 'userDao'
+[D][22:44:59]Autowiring by type from bean name 'userServiceImpl' to bean named 'userDao'
+[D][22:44:59]Finished creating instance of bean 'userServiceImpl'
+[D][22:44:59]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'propertyConfigurer'
+[D][22:44:59]Returning cached instance of singleton bean 'dataSource'
+[D][22:44:59]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:44:59]Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[D][22:44:59]Creating shared instance of singleton bean 'transactionManager'
+[D][22:44:59]Creating instance of bean 'transactionManager'
+[D][22:44:59]Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+[D][22:44:59]Returning cached instance of singleton bean 'dataSource'
+[D][22:44:59]Invoking afterPropertiesSet() on bean with name 'transactionManager'
+[D][22:44:59]Finished creating instance of bean 'transactionManager'
+[D][22:44:59]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'departmentDao'
+[D][22:44:59]Returning cached instance of singleton bean 'repairsDao'
+[D][22:44:59]Returning cached instance of singleton bean 'UGroupDao'
+[D][22:44:59]Returning cached instance of singleton bean 'userDao'
+[D][22:44:59]Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1a1ed4e5]
+[D][22:44:59]Returning cached instance of singleton bean 'lifecycleProcessor'
+[D][22:44:59]Returning cached instance of singleton bean 'sqlSessionFactory'
+[D][22:44:59]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+[D][22:44:59]Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+[D][22:44:59]Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+[D][22:44:59]Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[D][22:44:59]Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+[D][22:44:59]Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[D][22:44:59]JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial. Returning null.
+[D][22:44:59]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[D][22:44:59]Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[D][22:44:59]Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[D][22:44:59]Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[D][22:44:59]Root WebApplicationContext: initialization completed in 2981 ms
+[D][22:44:59]Adding [servletConfigInitParams] PropertySource with lowest search precedence
+[D][22:44:59]Adding [servletContextInitParams] PropertySource with lowest search precedence
+[D][22:44:59]Adding [jndiProperties] PropertySource with lowest search precedence
+[D][22:44:59]Adding [systemProperties] PropertySource with lowest search precedence
+[D][22:44:59]Adding [systemEnvironment] PropertySource with lowest search precedence
+[D][22:44:59]Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+[D][22:44:59]Initializing filter 'characterEncodingFilter'
+[D][22:44:59]Filter 'characterEncodingFilter' configured successfully
