@@ -17,10 +17,18 @@ public class LoginAction extends BaseAction<LoginAction> {
 	private IUserService userService = ApplicationContextUtil
 			.getBean("userServiceImpl");
 
-	@RequestMapping(value = "login.html")
-	public ModelAndView login(Model model) {
+	@RequestMapping(value = "login.do")
+	public ModelAndView LoginMV(Model model) {
 		ModelAndView mv = new ModelAndView();
-
 		return mv;
 	}
+	
+	
+	@RequestMapping(value = "userLogin.do")
+	public String UserLogin(String uName,String uPwd) {
+		String userData=userService.userLogin(uName, uPwd);
+		return ajaxJsonSuccessMessage(userData);
+	}
+	
+	
 }
