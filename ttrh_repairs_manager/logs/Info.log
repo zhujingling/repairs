@@ -199,3 +199,117 @@ public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.Log
 [I][22:44:56]Loading XML bean definitions from class path resource [spring-mybatis.xml]
 [I][22:44:58]Loading properties file from class path resource [db.properties]
 [I][22:44:59]Root WebApplicationContext: initialization completed in 2981 ms
+[I][10:21:33]Root WebApplicationContext: initialization started
+[I][10:21:34]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 10:21:34 CST 2015]; root of context hierarchy
+[I][10:21:34]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][10:21:36]Loading properties file from class path resource [db.properties]
+[I][10:21:37]Root WebApplicationContext: initialization completed in 3653 ms
+[I][10:23:04]FrameworkServlet 'spring': initialization started
+[I][10:23:04]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 10:23:04 CST 2015]; parent: Root WebApplicationContext
+[I][10:23:04]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][10:23:54]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][10:23:54]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][10:23:54]FrameworkServlet 'spring': initialization completed in 50672 ms
+[I][13:52:09]Root WebApplicationContext: initialization started
+[I][13:52:09]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 13:52:09 CST 2015]; root of context hierarchy
+[I][13:52:09]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][13:52:09]Loading properties file from class path resource [db.properties]
+[I][13:52:10]Root WebApplicationContext: initialization completed in 1108 ms
+[I][13:52:36]FrameworkServlet 'spring': initialization started
+[I][13:52:36]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 13:52:36 CST 2015]; parent: Root WebApplicationContext
+[I][13:52:36]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][13:52:37]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][13:52:37]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][13:52:38]FrameworkServlet 'spring': initialization completed in 1964 ms
+[I][13:55:15]Root WebApplicationContext: initialization started
+[I][13:55:15]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 13:55:15 CST 2015]; root of context hierarchy
+[I][13:55:15]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][13:55:16]Loading properties file from class path resource [db.properties]
+[I][13:55:16]Root WebApplicationContext: initialization completed in 1167 ms
+[I][13:55:22]FrameworkServlet 'spring': initialization started
+[I][13:55:22]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 13:55:22 CST 2015]; parent: Root WebApplicationContext
+[I][13:55:22]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][13:55:24]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][13:55:24]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][13:55:24]FrameworkServlet 'spring': initialization completed in 1914 ms
+[I][13:55:45]Root WebApplicationContext: initialization started
+[I][13:55:45]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 13:55:45 CST 2015]; root of context hierarchy
+[I][13:55:45]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][13:55:46]Loading properties file from class path resource [db.properties]
+[I][13:55:46]Root WebApplicationContext: initialization completed in 1016 ms
+[I][13:55:49]FrameworkServlet 'spring': initialization started
+[I][13:55:49]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 13:55:49 CST 2015]; parent: Root WebApplicationContext
+[I][13:55:49]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][13:55:51]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][13:55:51]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][13:55:51]FrameworkServlet 'spring': initialization completed in 2225 ms
+[I][13:55:56]No mapping found for HTTP request with URI [/login.html] in DispatcherServlet with name 'spring'
+[I][13:56:06]No mapping found for HTTP request with URI [/login.html] in DispatcherServlet with name 'spring'
+[I][13:57:28]Root WebApplicationContext: initialization started
+[I][13:57:28]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 13:57:28 CST 2015]; root of context hierarchy
+[I][13:57:28]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][13:57:29]Loading properties file from class path resource [db.properties]
+[I][13:57:29]Root WebApplicationContext: initialization completed in 1123 ms
+[I][13:58:06]FrameworkServlet 'spring': initialization started
+[I][13:58:06]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 13:58:06 CST 2015]; parent: Root WebApplicationContext
+[I][13:58:06]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][13:58:08]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][13:58:08]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][13:58:08]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login2(org.springframework.ui.Model)
+[I][13:58:08]FrameworkServlet 'spring': initialization completed in 2420 ms
+[I][13:59:55]Root WebApplicationContext: initialization started
+[I][13:59:55]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 13:59:55 CST 2015]; root of context hierarchy
+[I][13:59:55]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][13:59:56]Loading properties file from class path resource [db.properties]
+[I][13:59:56]Root WebApplicationContext: initialization completed in 1009 ms
+[I][14:00:07]FrameworkServlet 'spring': initialization started
+[I][14:00:07]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 14:00:07 CST 2015]; parent: Root WebApplicationContext
+[I][14:00:07]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][14:00:09]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][14:00:09]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][14:00:09]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login2(org.springframework.ui.Model)
+[I][14:00:09]FrameworkServlet 'spring': initialization completed in 2375 ms
+[I][14:00:09]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:00:51]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:01:27]Root WebApplicationContext: initialization started
+[I][14:01:27]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 14:01:27 CST 2015]; root of context hierarchy
+[I][14:01:28]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][14:01:28]Loading properties file from class path resource [db.properties]
+[I][14:01:28]Root WebApplicationContext: initialization completed in 1095 ms
+[I][14:01:33]FrameworkServlet 'spring': initialization started
+[I][14:01:33]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 14:01:33 CST 2015]; parent: Root WebApplicationContext
+[I][14:01:33]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][14:01:35]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][14:01:35]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][14:01:35]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login2(org.springframework.ui.Model)
+[I][14:01:35]FrameworkServlet 'spring': initialization completed in 2542 ms
+[I][14:01:35]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:03:07]Root WebApplicationContext: initialization started
+[I][14:03:07]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 14:03:07 CST 2015]; root of context hierarchy
+[I][14:03:08]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][14:03:08]Loading properties file from class path resource [db.properties]
+[I][14:03:08]Root WebApplicationContext: initialization completed in 981 ms
+[I][14:03:12]FrameworkServlet 'spring': initialization started
+[I][14:03:12]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 14:03:12 CST 2015]; parent: Root WebApplicationContext
+[I][14:03:12]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][14:03:14]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][14:03:14]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][14:03:14]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login2(org.springframework.ui.Model)
+[I][14:03:15]FrameworkServlet 'spring': initialization completed in 2998 ms
+[I][14:03:15]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:03:16]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:03:17]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:03:17]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][14:03:17]No mapping found for HTTP request with URI [/WEB-INF/views/login.html] in DispatcherServlet with name 'spring'
+[I][17:33:17]Root WebApplicationContext: initialization started
+[I][17:33:17]Refreshing Root WebApplicationContext: startup date [Tue Nov 10 17:33:17 CST 2015]; root of context hierarchy
+[I][17:33:17]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[I][17:33:18]Loading properties file from class path resource [db.properties]
+[I][17:33:18]Root WebApplicationContext: initialization completed in 1049 ms
+[I][17:33:32]FrameworkServlet 'spring': initialization started
+[I][17:33:32]Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Tue Nov 10 17:33:32 CST 2015]; parent: Root WebApplicationContext
+[I][17:33:32]Loading XML bean definitions from class path resource [context-dispatcher.xml]
+[I][17:33:36]Mapped "{[/views/indexview/index.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.IndexAction.index(org.springframework.ui.Model)
+[I][17:33:36]Mapped "{[//login.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login(org.springframework.ui.Model)
+[I][17:33:36]Mapped "{[//login.html],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.ttrh.repairs.control.LoginAction.login2(org.springframework.ui.Model)
+[I][17:33:37]FrameworkServlet 'spring': initialization completed in 4287 ms

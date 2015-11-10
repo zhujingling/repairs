@@ -17,8 +17,15 @@ public class LoginAction extends BaseAction<LoginAction> {
 	private IUserService userService = ApplicationContextUtil
 			.getBean("userServiceImpl");
 
-	@RequestMapping(value = "login.html")
+	@RequestMapping(value = "login.do")
 	public ModelAndView login(Model model) {
+		ModelAndView mv = new ModelAndView();
+
+		return mv;
+	}
+	
+	@RequestMapping(value = "login.html")
+	public ModelAndView login2(Model model) {
 		ModelAndView mv = new ModelAndView();
 
 		return mv;
