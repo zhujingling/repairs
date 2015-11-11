@@ -5,10 +5,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 @Controller
-@RequestMapping("/views/indexview")
+@RequestMapping("/indexview")
 public class IndexAction extends BaseAction<IndexAction> {
 
-	@RequestMapping(value = "index.html")
+	@RequestMapping(value = "index.do")
 	public ModelAndView index(Model model) {
 		ModelAndView mv = new ModelAndView();
 		return mv;

@@ -12,6 +12,12 @@ $(function() {
 			bPsd = uiInput(this, false);
 		}
 	});
+	
+	function hrefByName(filename) {
+        if (filename) {
+            window.location.href = "indexview/" + filename;
+        }
+    }
 
 	function uiInput(id, valid) {
 		return valid;
@@ -31,7 +37,9 @@ $(function() {
 				uPwd : $("#UPwd").val()
 			}, function(data, status) {
 				if (status == "success") {
-					alert("获取信息成功");
+					var obj = JSON.parse(data);
+					window.localStorage["user"]=obj;
+					hrefByName("index.do");
 				}
 			})
 		}
