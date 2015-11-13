@@ -26,7 +26,7 @@
 					<div class="panel-body">
 						<div class="row">
 							<div class="col-md-12 col-xs-12">
-								<form class="bs-example bs-example-form" role="form">
+								<form class="bs-example bs-example-form" role="form" onsubmit="return false;">
 									<center>
 										<div class="input-group">
 											<span class="input-group-addon" style="width: 35%">用户名</span>

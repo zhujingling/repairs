@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	
 	var UName=$("#UName");
-	UName.InnerText=window.localStorage["user"].UName;
+	var obj = JSON.parse(window.localStorage['user']);
+	alert(obj.message);
 	
 });

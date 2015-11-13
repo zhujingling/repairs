@@ -38,7 +38,7 @@ $(function() {
 			}, function(data, status) {
 				if (status == "success") {
 					var obj = JSON.parse(data);
-					window.localStorage["user"]=obj;
+					window.localStorage['user']=data;
 					hrefByName("index.do");
 				}
 			})
