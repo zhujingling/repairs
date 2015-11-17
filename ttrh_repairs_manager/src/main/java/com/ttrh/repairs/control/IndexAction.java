@@ -11,6 +11,7 @@ public class IndexAction extends BaseAction<IndexAction> {
 	@RequestMapping(value = "index.do")
 	public ModelAndView index(Model model) {
 		ModelAndView mv = new ModelAndView();
+		mv.setViewName("indexview/index");
 		return mv;
 	}
 }
